@@ -9,6 +9,7 @@ import am.adrian.global.transactions.service.helper.RequestContextHolder;
  * Class responsible for executing all instances of the {@link TransactionalOperation}.
  * This class should always be used for executing the operations,
  * otherwise they won't be cached and reverted later if exception happens at some step.
+ * This class is designed for usage in non-reactive applications.
  */
 public class TransactionalOperationExecutor {
 
