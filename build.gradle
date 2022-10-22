@@ -30,8 +30,8 @@ publishing {
             name = "AdrianYepremyanGitHubPackages"
             url = uri("https://maven.pkg.github.com/yepremyanadrian99/global-transactions")
             credentials {
-                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+                username = project.findProperty("githubUsername") ?: System.getenv("githubUsername")
+                password = project.findProperty("githubAuthToken") ?: System.getenv("githubAuthToken")
             }
         }
     }
