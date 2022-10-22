@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'am.adrian.global-transactions'
-version '1.0.0-SNAPSHOT'
+version '1.0.0-SNAPSHOT-BETA1'
 
 repositories {
     mavenCentral()
@@ -29,7 +29,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'am.adrian'
             artifactId = 'global-transactions'
-            version = '1.0.0-SNAPSHOT'
+            version = '1.0.0-SNAPSHOT-BETA1'
 
             from components.java
         }
