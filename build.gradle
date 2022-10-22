@@ -25,6 +25,16 @@ test {
 }
 
 publishing {
+    repositories {
+        maven {
+            name = "AdrianYepremyanGitHubPackages"
+            url = uri("https://maven.pkg.github.com/yepremyanadrian99/global-transactions")
+            credentials {
+                username = project.findProperty("githubUsername") ?: System.getenv("githubUsername")
+                password = project.findProperty("githubAuthToken") ?: System.getenv("githubAuthToken")
+            }
+        }
+    }
     publications {
         maven(MavenPublication) {
             groupId = 'am.adrian'
