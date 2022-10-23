@@ -1,6 +1,6 @@
-package am.adrian.global.transactions.service.helper;
+package am.adrianyepremyan.global.transactions.service.helper;
 
-import am.adrian.global.transactions.domain.TransactionalContext;
+import am.adrianyepremyan.global.transactions.domain.TransactionalContext;
 
 /**
  * Helper class that accomplishes the job of retrieving the context bound to the current thread.

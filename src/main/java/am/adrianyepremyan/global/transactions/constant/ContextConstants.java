@@ -1,4 +1,4 @@
-package am.adrian.global.transactions.constant;
+package am.adrianyepremyan.global.transactions.constant;
 
 /**
  * Class used to hold all global-transactions-related constants.

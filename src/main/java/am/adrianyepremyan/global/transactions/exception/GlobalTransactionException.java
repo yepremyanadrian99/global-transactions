@@ -1,4 +1,4 @@
-package am.adrian.global.transactions.exception;
+package am.adrianyepremyan.global.transactions.exception;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

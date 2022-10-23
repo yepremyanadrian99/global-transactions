@@ -1,4 +1,4 @@
-package am.adrian.global.transactions.domain;
+package am.adrianyepremyan.global.transactions.domain;
 
 /**
  * Main interface for all transactional operation classes to implement.
