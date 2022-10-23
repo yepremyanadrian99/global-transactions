@@ -34,7 +34,7 @@ publishing {
     }
     publications {
         maven(MavenPublication) {
-            groupId = 'am.adrian'
+            groupId = 'am.adrianyepremyan'
             artifactId = 'global-transactions'
             version = '1.1.0'
 
