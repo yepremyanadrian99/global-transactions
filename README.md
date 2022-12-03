@@ -362,3 +362,11 @@ public record FolderService(
     }
 }
 ```
+
+# Useful links
+
+* ### Blocking application repository
+  https://github.com/yepremyanadrian99/global-transactions-requester
+
+* ### Reactive application repository
+  https://github.com/yepremyanadrian99/global-transactions-reactive-requester
